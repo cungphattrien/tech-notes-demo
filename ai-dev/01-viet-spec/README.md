@@ -9,3 +9,6 @@ Side project: **sổ chi tiêu qua tin nhắn** (nhắn `cà phê 35k` là ghi x
 ```bash
 node --test src/parse-expense.test.ts   # 11 test, cần Node.js 22.18+
 ```
+
+## Đã biết
+`cà phê 35 nghìn` đang bị đọc thành 35 đồng (ghi chú "cà phê nghìn") — chữ "nghìn" chưa có trong bảng ví dụ của spec, nên chưa có test. Xem bài viết, phần "Test qua chưa có nghĩa là bạn hiểu code".
