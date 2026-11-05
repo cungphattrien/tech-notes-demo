@@ -1,0 +1,13 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 1rem;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
