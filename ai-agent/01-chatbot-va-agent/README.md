@@ -5,6 +5,7 @@ Ba cách trả lời tự động, chạy không cần API key:
 
 ```bash
 node src/1-chatbot-luat.ts   # dò từ khóa: đúng 5/8 tin nhắn mẫu
+node src/1b-them-luat.ts     # vá thêm luật: sửa 3 câu cũ, hỏng 2 câu mới
 node src/2-workflow.ts       # các bước cố định: tốt với câu hỏi đã biết trước
 node src/3-agent.ts          # vòng lặp agent: tự chọn công cụ, làm nhiều bước
 ```
