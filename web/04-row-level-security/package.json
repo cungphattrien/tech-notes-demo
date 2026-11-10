@@ -1,0 +1,8 @@
+{
+  "name": "blog-mini-04-row-level-security",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@electric-sql/pglite": "0.3.14"
+  }
+}
