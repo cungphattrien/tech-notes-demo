@@ -1,0 +1,13 @@
+{
+  "name": "don-hang-moc-03",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.ts",
+    "test": "vitest run src",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "5.1.0"
+  }
+}

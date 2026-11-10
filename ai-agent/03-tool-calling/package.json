@@ -1,0 +1,11 @@
+{
+  "name": "moc-ai-agent-03",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/hoi-moc.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.5.0"
+  }
+}

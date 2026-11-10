@@ -1,0 +1,8 @@
+{
+  "name": "blog-mini-03-bang-bai-viet",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@electric-sql/pglite": "0.3.14"
+  }
+}
