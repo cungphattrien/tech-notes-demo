@@ -7,7 +7,7 @@ Tập này nhúng (embed) từng đoạn và câu hỏi thành vector bằng mô
 ```bash
 npm install
 npx tsx src/thu-nghia.ts      # vector là gì, độ giống giữa ba câu
-npx tsx src/so-sanh.ts        # chấm từ khóa / theo nghĩa / kết hợp trên 12 câu hỏi mẫu (đối số: số đoạn, mặc định 2)
+npx tsx src/so-sanh.ts        # chấm từ khóa / theo nghĩa trên 12 câu hỏi mẫu (đối số: số đoạn, mặc định 2)
 npx tsx src/chay.ts           # tìm theo nghĩa + ghép prompt + trả lời
 ```
 
