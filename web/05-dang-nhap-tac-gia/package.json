@@ -1,0 +1,8 @@
+{
+  "name": "blog-mini-05-dang-nhap-tac-gia",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@electric-sql/pglite": "0.3.14"
+  }
+}
