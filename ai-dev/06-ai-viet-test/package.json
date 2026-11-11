@@ -1,0 +1,8 @@
+{
+  "name": "so-chi-tieu-06",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "grammy": "1.46.0"
+  }
+}

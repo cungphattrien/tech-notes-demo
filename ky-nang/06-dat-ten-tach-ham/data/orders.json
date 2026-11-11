@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1041,
+    "createdAt": "2026-11-03T08:12:00+07:00",
+    "source": "web",
+    "customer": { "name": "Nguyễn An", "phone": "0901000001" },
+    "items": [
+      { "name": "Cà phê sữa", "price": 29000, "quantity": 2 },
+      { "name": "Bánh mì trứng", "price": 25000, "quantity": 1 }
+    ]
+  },
+  {
+    "id": 1042,
+    "createdAt": "2026-11-03T09:40:00+07:00",
+    "source": "web",
+    "customer": { "name": "Trần Bình", "phone": "0901000002" },
+    "items": [{ "name": "Bạc xỉu", "price": 32000, "quantity": 1 }]
+  },
+  {
+    "id": 1043,
+    "createdAt": "2026-11-03T10:05:00+07:00",
+    "source": "may-cu",
+    "items": [{ "name": "Cà phê đen", "price": 25000, "quantity": 1 }]
+  },
+  {
+    "id": 1044,
+    "createdAt": "2026-11-03T10:30:00+07:00",
+    "source": "may-cu",
+    "customer": { "name": "Lê Chi", "phone": "0901000004" },
+    "items": [{ "name": "Cà phê muối", "price": "35.000", "quantity": 2 }]
+  }
+]
