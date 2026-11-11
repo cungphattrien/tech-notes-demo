@@ -1,0 +1,12 @@
+{
+  "name": "so-chi-tieu-07",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "grammy": "1.46.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "typescript": "7.0.2"
+  }
+}
