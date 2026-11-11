@@ -1,10 +1,10 @@
 // Gửi các đơn hỏng vào máy chủ đã có Zod và in lỗi trả về. Chạy: node thu-zod.ts
 import type { AddressInfo } from "node:net";
 
-import { loadOrders } from "./src/order-file.ts";
+import { DON_MAU } from "./src/don-mau.ts";
 import { createOrderServer } from "./src/order-server.ts";
 
-const server = createOrderServer(loadOrders(new URL("./data/orders.json", import.meta.url)));
+const server = createOrderServer([...DON_MAU]);
 await new Promise<void>((resolve) => server.listen(0, resolve));
 const goc = `http://localhost:${(server.address() as AddressInfo).port}/don-hang`;
 
