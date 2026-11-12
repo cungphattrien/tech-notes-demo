@@ -1,0 +1,6 @@
+{
+  "name": "moc-ai-agent-09",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test src" }
+}
