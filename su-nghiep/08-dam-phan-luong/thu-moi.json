@@ -1,0 +1,11 @@
+{
+  "congTy": "Công ty A",
+  "viTri": "Junior Frontend Developer (React)",
+  "trinhDoYeuCau": "cao-dang-tro-len",
+  "luongChinhThucGross": 10000000,
+  "thuViec": { "tu": "2026-12-01", "den": "2027-01-31", "phanTramLuong": 85 },
+  "luongDongBaoHiem": null,
+  "thang13": null,
+  "ngayXemXetLuong": null,
+  "ghiChu": "Nguoi huong dan trong 2 thang dau; lam viec 3 ngay/tuan tai van phong."
+}
