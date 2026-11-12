@@ -11,7 +11,7 @@ Tiếp tập 8. Log của máy chủ đơn hàng ghi thời gian xử lý mỗi 
 
 ```bash
 npm ci
-npx vitest run                                   # 8 file, 55 test
+npx vitest run                                   # 8 file, 51 test
 node thu-log-cham.ts
 node thu-doan.ts
 node --no-turbo-inlining --cpu-prof --cpu-prof-dir=prof thu-do.ts
