@@ -1,0 +1,6 @@
+{
+  "name": "blog-mini-09-seo",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test src" }
+}
