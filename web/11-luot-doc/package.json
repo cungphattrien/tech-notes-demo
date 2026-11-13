@@ -1,0 +1,6 @@
+{
+  "name": "blog-mini-11-luot-doc",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test src" }
+}
