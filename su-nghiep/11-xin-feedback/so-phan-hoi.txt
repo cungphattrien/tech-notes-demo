@@ -1,0 +1,4 @@
+- [x] Tách hàm tinhTongTien ra khỏi hàm tạo đơn | từ: anh Phúc | nhận: 11/12/2026 | hạn: 15/12/2026 | báo lại: 15/12/2026
+- [x] Thêm test cho đơn giảm giá đúng 100% | từ: anh Phúc | nhận: 11/12/2026 | hạn: 16/12/2026 | báo lại: chưa
+- [ ] Đổi tên biến data thành don_hang_goc | từ: anh Phúc | nhận: 11/12/2026 | hạn: 18/12/2026 | báo lại: chưa
+- [ ] Đọc phần triển khai trong README | từ: chị Hạnh | nhận: 11/12/2026 | hạn: 14/12/2026 | báo lại: chưa

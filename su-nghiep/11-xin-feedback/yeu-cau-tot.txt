@@ -1,0 +1,7 @@
+Anh Phúc ơi, em muốn xin anh góp ý về pull request https://github.com/cong-ty-a/don-hang/pull/128 (sửa lỗi tính tổng tiền đơn có giảm giá), em làm xong từ chiều qua.
+
+Em đang muốn biết hai chuyện:
+- Cách em tách hàm tinhTongTien có dễ đọc không, hay nên tách khác đi?
+- Tên biến và test em đặt có theo cách của nhóm mình không?
+
+Anh dành khoảng 10 phút xem giúp em trước thứ Hai 14/12 được không ạ? Anh cứ comment thẳng vào pull request, một hai câu là đủ. Em xin cảm ơn anh.
