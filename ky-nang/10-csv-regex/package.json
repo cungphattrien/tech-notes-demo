@@ -1,0 +1,6 @@
+{
+  "name": "don-hang-moc-10",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test src" }
+}
