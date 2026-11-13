@@ -1,0 +1,6 @@
+{
+  "name": "so-chi-tieu-ai-10",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test src" }
+}
