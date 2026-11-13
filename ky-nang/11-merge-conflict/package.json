@@ -1,0 +1,6 @@
+{
+  "name": "don-hang-moc-11",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test xung-dot.test.ts" }
+}
