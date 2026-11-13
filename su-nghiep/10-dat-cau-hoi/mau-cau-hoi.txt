@@ -1,0 +1,14 @@
+Chào anh/chị ..., em đang bị kẹt ở ..., anh/chị xem giúp em một chút được không ạ?
+
+Em đang làm ... (việc gì, để đạt mục tiêu gì).
+Em mong đợi ..., nhưng thực tế ...:
+
+(dán nguyên văn lỗi hoặc kết quả, dạng chữ, không chụp ảnh)
+
+Em đã thử:
+- ... (kết quả: ...)
+- ... (kết quả: ...)
+
+Môi trường: (hệ điều hành, phiên bản Node hoặc công cụ, commit hoặc nhánh).
+
+Em nghi ... vì ... (nếu có giả thuyết). Anh/chị cho em hỏi: (MỘT câu hỏi cụ thể)?

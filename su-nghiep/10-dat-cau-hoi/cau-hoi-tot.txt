@@ -1,0 +1,16 @@
+Chào anh Phúc, em đang bị kẹt ở bước chạy test của dự án, anh xem giúp em một chút được không ạ?
+
+Em đang chạy `npm test` để kiểm tra nhánh minh/them-ghi-chu trước khi gửi pull request.
+Em mong đợi test chạy qua như trên CI, nhưng thực tế nó dừng ở lỗi này:
+
+Error: getaddrinfo ENOTFOUND db
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+
+Em đã thử:
+- Chạy lại `docker compose up -d db`, `docker ps` báo container đang Up.
+- Xóa node_modules rồi `npm ci`, lỗi y như cũ.
+- Tìm "ENOTFOUND db" trong README và thư mục docs/, chưa thấy.
+
+Môi trường: Windows 11, Node 22.20.0, commit 4be71a2. File .env.test em tạo bằng cách chép từ .env.example.
+
+Em nghi do .env.test, vì trong đó DATABASE_URL trỏ tới host "db" mà em chạy test ngoài Docker. Anh cho em hỏi: khi chạy test ngoài Docker thì host nên là gì ạ?
