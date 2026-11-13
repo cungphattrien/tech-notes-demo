@@ -10,12 +10,13 @@ Tiếp tập 10. Một lần chạy bộ eval là 85 lượt gọi mô hình, c�
 - `src/dinh-tuyen.ts`: chọn mô hình nhỏ hay lớn bằng code.
 - `src/bo-nho-tra-loi.ts`: nhớ câu trả lời theo hai cách, một sai một đúng.
 - `src/mo-phong.ts`: sinh 200 tin nhắn trong ngày và tính tiền.
-- `chay.ts`: so sánh năm cách vận hành. `thu-sai.ts`: ba lỗi hay gặp.
+- `chay.ts`: so sánh năm cách vận hành. `thu-gio-o-dau.ts`, `thu-nho-cau-tra-loi.ts`: hai lỗi hay gặp.
 - `src/chi-phi.test.ts`: 9 test.
 
 ```bash
 node chay.ts
-node thu-sai.ts
+node thu-gio-o-dau.ts
+node thu-nho-cau-tra-loi.ts
 node --test src/chi-phi.test.ts
 ```
 
