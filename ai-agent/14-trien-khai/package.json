@@ -1,0 +1,9 @@
+{
+  "name": "moc-ai-agent-14",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env chay.ts",
+    "test": "node --test src/trien-khai.test.ts"
+  }
+}
