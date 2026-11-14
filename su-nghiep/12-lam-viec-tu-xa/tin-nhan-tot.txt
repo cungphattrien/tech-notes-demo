@@ -1,0 +1,5 @@
+Anh Phúc ơi, em đang kẹt ở pull request #134 (https://git.congtya.example/moc/don-hang/pull/134): test order-file đỏ trên CI nhưng chạy ở máy em thì xanh. Log CI em dán ở bình luận đầu tiên.
+
+Em đã thử hai việc: chạy lại CI (vẫn đỏ) và chạy test với TZ=UTC ở máy em (đỏ giống CI). Em đoán lỗi nằm ở múi giờ nhưng chưa chắc. Anh cho em hỏi: em nên sửa hàm monthOf hay sửa test ạ?
+
+Anh trả lời giúp em trước 15:00 giờ Việt Nam (UTC+7) thứ Ba 15/12 là kịp ạ. Trong lúc chờ, em làm tiếp việc #135. Nếu đến 15:00 em chưa thấy trả lời thì em sửa hàm theo hướng em đoán và ghi rõ trong pull request để anh xem lại.
