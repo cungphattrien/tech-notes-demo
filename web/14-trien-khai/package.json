@@ -1,0 +1,6 @@
+{
+  "name": "blog-mini-14-trien-khai",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test kiem-env.test.ts kiem-sau-deploy.test.ts" }
+}
