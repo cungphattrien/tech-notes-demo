@@ -1,0 +1,17 @@
+{
+  "name": "so-chi-tieu-12",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test src/phan-loai.test.ts kiem-claude-md.test.ts",
+    "kiem-kieu": "tsc --noEmit --erasableSyntaxOnly",
+    "kiem-claude-md": "node kiem-claude-md.ts CLAUDE.md"
+  },
+  "dependencies": {
+    "grammy": "1.46.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "typescript": "7.0.2"
+  }
+}
