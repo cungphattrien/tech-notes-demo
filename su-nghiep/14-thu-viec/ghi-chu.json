@@ -1,0 +1,14 @@
+[
+  { "tuan": 1, "viec": "Chạy được dự án và sửa lỗi nút đăng ký lệch trên điện thoại", "nangLuc": ["doc-code-cu", "viet-code"], "bangChung": "PR #198", "ketQua": "tot" },
+  { "tuan": 1, "viec": "Hỏi anh Phúc về cấu trúc thư mục bằng tin nhắn có đường dẫn và câu hỏi cụ thể", "nangLuc": ["giao-tiep"], "bangChung": "tin nhắn kênh #moc-dev ngày 05/10", "ketQua": "tot" },
+  { "tuan": 2, "viec": "Thêm trường ghi chú vào đơn hàng", "nangLuc": ["viet-code", "kiem-thu"], "bangChung": "PR #201, thêm 6 test", "ketQua": "tot" },
+  { "tuan": 2, "viec": "Ước lượng 4 giờ, thực tế 7 giờ", "nangLuc": ["uoc-luong"], "bangChung": "ghi chú task #201", "ketQua": "chua-tot" },
+  { "tuan": 3, "viec": "Đọc và sửa một lỗi múi giờ ở báo cáo", "nangLuc": ["doc-code-cu"], "bangChung": "PR #205", "ketQua": "tot" },
+  { "tuan": 4, "viec": "API lọc đơn theo trạng thái", "nangLuc": ["viet-code", "kiem-thu", "uoc-luong"], "bangChung": "PR #209, 11 giờ so với ước lượng 6 giờ", "ketQua": "chua-tot" },
+  { "tuan": 4, "viec": "Nhận góp ý của chị Hạnh: nên tách hàm 80 dòng thành hàm nhỏ", "nangLuc": ["hoc-nhanh"], "bangChung": "nhận xét trên PR #209", "ketQua": "tot" },
+  { "tuan": 5, "viec": "Tách hàm theo góp ý và tự viết thêm test cho hàm mới", "nangLuc": ["hoc-nhanh", "kiem-thu"], "bangChung": "PR #212, 5 test mới", "ketQua": "tot" },
+  { "tuan": 5, "viec": "Làm việc với anh Karl ở múi giờ khác bằng tin nhắn có hạn kèm múi giờ", "nangLuc": ["giao-tiep"], "bangChung": "chuỗi tin nhắn ngày 03/11", "ketQua": "tot" },
+  { "tuan": 6, "viec": "Báo trễ task bộ lọc đơn ngay cuối ngày thứ ba thay vì chờ bị hỏi", "nangLuc": ["giao-tiep", "uoc-luong"], "bangChung": "báo cáo cuối ngày 15/12", "ketQua": "tot" },
+  { "tuan": 7, "viec": "Trang cài đặt tài khoản", "nangLuc": ["viet-code"], "bangChung": "PR #220, 10 giờ so với ước lượng 8 giờ", "ketQua": "tot" },
+  { "tuan": 8, "viec": "Cập nhật README để người mới chạy được dự án", "nangLuc": ["giao-tiep", "doc-code-cu"], "bangChung": "PR #226", "ketQua": "tot" }
+]

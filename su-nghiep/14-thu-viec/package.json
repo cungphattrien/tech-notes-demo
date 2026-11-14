@@ -1,0 +1,6 @@
+{
+  "name": "hanh-trinh-junior-14",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test tu-danh-gia.test.ts" }
+}
