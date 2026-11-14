@@ -1,0 +1,16 @@
+{
+  "name": "don-hang-moc-13",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.ts",
+    "start": "node --env-file=.env src/server.ts",
+    "test": "node --test src/config.test.ts scripts/setup.test.ts kiem-readme.test.ts"
+  },
+  "dependencies": {
+    "zod": "4.6.7"
+  }
+}
