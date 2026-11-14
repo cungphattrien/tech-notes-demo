@@ -39,6 +39,23 @@ console.log("=== Cách 1: bảng cho vai trò anon insert và select thẳng ===
   console.log("Người lạ đọc được:", lo.rows.map((r) => (r as { email: string }).email).join(", "));
 }
 
+// ---------- Cách 1b: bỏ policy đọc đi cho an toàn? ----------
+console.log("\n=== Cách 1b: bỏ policy đọc, chỉ cho insert ===");
+{
+  const db = await dungMoiTruong();
+  await db.exec(`
+    create table public.subscribers (id bigint generated always as identity primary key, email text unique not null);
+    alter table public.subscribers enable row level security;
+    create policy "ai cũng thêm được" on public.subscribers for insert to anon with check (true);
+    grant insert on public.subscribers to anon;
+  `);
+  await db.exec("set role anon");
+  await db.query("insert into public.subscribers (email) values ('an@example.com')");
+  console.log("anon đọc bảng:", await loi(() => db.query("select email from public.subscribers")));
+  console.log("anon thêm email đã có:", await loi(() => db.query("insert into public.subscribers (email) values ('an@example.com')")));
+  console.log("anon thêm email mới:", await loi(() => db.query("insert into public.subscribers (email) values ('moi@example.com')")));
+}
+
 // ---------- Cách 2: migration thật của blog ----------
 console.log("\n=== Cách 2: migration thật của blog (chỉ gọi hàm subscribe) ===");
 {
