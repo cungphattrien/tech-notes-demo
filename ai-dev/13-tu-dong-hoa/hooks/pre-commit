@@ -1,0 +1,3 @@
+#!/bin/sh
+# Git chạy file này trước mỗi commit; thoát khác 0 thì commit bị hủy.
+node kiem.ts

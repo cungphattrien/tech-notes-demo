@@ -1,0 +1,3 @@
+#!/bin/sh
+# Git chạy file này sau khi bạn gõ xong tin nhắn commit; $1 là đường dẫn file chứa tin nhắn.
+node kiem-commit-msg.ts "$1"
