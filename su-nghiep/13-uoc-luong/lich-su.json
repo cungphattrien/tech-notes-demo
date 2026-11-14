@@ -1,0 +1,10 @@
+[
+  { "viec": "Sửa nút đăng ký bị lệch trên điện thoại", "uocGio": 2, "thucGio": 3 },
+  { "viec": "Thêm trường ghi chú vào đơn hàng", "uocGio": 4, "thucGio": 7 },
+  { "viec": "Đổi định dạng ngày trên trang đơn", "uocGio": 1, "thucGio": 1.5 },
+  { "viec": "API lọc đơn theo trạng thái", "uocGio": 6, "thucGio": 11 },
+  { "viec": "Sửa lỗi múi giờ ở báo cáo", "uocGio": 3, "thucGio": 4 },
+  { "viec": "Thêm test cho giỏ hàng", "uocGio": 4, "thucGio": 5 },
+  { "viec": "Trang cài đặt tài khoản", "uocGio": 8, "thucGio": 10 },
+  { "viec": "Cập nhật README", "uocGio": 2, "thucGio": 1.5 }
+]

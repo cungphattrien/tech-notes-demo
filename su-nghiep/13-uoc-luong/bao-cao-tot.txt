@@ -1,0 +1,6 @@
+Báo cáo cuối ngày thứ ba (task lọc đơn theo ngày, PR #214: https://git.example/moc/orders/pull/214).
+Đã xong: API lọc theo khoảng ngày, có test.
+Đang làm: nối bộ lọc vào trang quản lý. Còn khoảng 8 giờ tập trung.
+Vướng: báo cáo đang lệch múi giờ, nên khoảng ngày cuối bị thiếu đơn. Em chưa chắc nên sửa ở API hay ở giao diện, và em sẽ hỏi anh Phúc ở dưới.
+Ước lượng ban đầu của em là hai ngày. Giờ em ước lượng lại: dự kiến xong vào thứ năm 17/12, tức là trễ hai ngày so với kế hoạch.
+Em sẽ báo lại vào cuối ngày thứ tư, hoặc sớm hơn nếu anh Phúc trả lời về chuyện múi giờ.

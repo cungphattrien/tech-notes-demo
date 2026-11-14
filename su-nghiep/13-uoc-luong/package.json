@@ -1,0 +1,6 @@
+{
+  "name": "hanh-trinh-junior-13",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test src/uoc-luong.test.ts" }
+}
