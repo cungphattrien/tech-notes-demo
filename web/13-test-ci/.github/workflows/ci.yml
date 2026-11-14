@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+      - "feat/**"
+      - "fix/**"
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+# Một lần đẩy mới lên cùng nhánh hủy lượt chạy cũ đã lỗi thời.
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  chat-luong:
+    name: Kiểm tra chất lượng
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - name: Cài thư viện đúng như package-lock.json
+        run: npm ci
+      - name: Kiểm tra kiểu
+        run: npm run typecheck
+      - name: Chạy test
+        run: npm test
