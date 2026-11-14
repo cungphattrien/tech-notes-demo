@@ -1,0 +1,6 @@
+{
+  "name": "so-chi-tieu-14",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test kiem-diff.test.ts" }
+}
