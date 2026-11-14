@@ -1,0 +1,6 @@
+{
+  "name": "don-hang-moc-14",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test kiem-du-an.test.ts ban-giao.test.ts" }
+}
