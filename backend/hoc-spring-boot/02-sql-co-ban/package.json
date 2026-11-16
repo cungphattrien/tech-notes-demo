@@ -1,0 +1,8 @@
+{
+  "name": "backend-spring-02-sql-co-ban",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@electric-sql/pglite": "0.3.14"
+  }
+}
