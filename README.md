@@ -11,6 +11,7 @@ Muốn xem lỗi trước khi sửa, mở thư mục của tập trước (tập
 | [`ky-nang/`](ky-nang) | Nhận dự án cũ: từ bug report đến pull request | Hệ thống đơn hàng của quán Mộc, đầy lỗi |
 | [`ai-dev/`](ai-dev) | Làm side project cùng AI | App sổ chi tiêu qua tin nhắn |
 | [`su-nghiep/`](su-nghiep) | Hành trình junior: từ CV đến hết thử việc | Mẫu CV, checklist, bảng luyện tập |
+| [`backend/`](backend) | Backend Java: từ Java đến Spring Boot, AWS và microservices | Hệ thống đơn hàng của quán Mộc viết bằng Java (xem [`backend/DOMAIN.md`](backend/DOMAIN.md)) |
 
 ## Chạy code
 
