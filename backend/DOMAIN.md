@@ -21,12 +21,13 @@ Quán Mộc, khách hàng và đơn hàng đều là dữ liệu minh họa.
 | `status` | `OrderStatus` | `NEW`, `PAID`, `DONE` hoặc `CANCELLED` |
 | `createdAt` | thời điểm | Lúc đặt đơn |
 
-`OrderLine` gồm `menuItemId` và `quantity` (số lượng, nguyên dương).
+`OrderLine` gồm `menuItemId`, `quantity` (số lượng, nguyên dương) và `unitPrice` (đơn giá lúc đặt, bằng đồng; thêm từ chặng 2 tập 3 để đổi giá món không làm đổi đơn cũ).
 
 ## Quy tắc
 
 - Tiền tính bằng đồng và là số nguyên, không có phần lẻ.
 - Đơn từ 100.000 đồng trở lên được giảm 10%.
+- Giá của một đơn đã đặt không đổi khi giá món thay đổi sau đó.
 - Một đơn đã `DONE` hoặc `CANCELLED` thì không đổi trạng thái nữa.
 
 ## Các dạng rút gọn

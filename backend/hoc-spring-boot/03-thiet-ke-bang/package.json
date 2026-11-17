@@ -1,0 +1,8 @@
+{
+  "name": "backend-spring-03-thiet-ke-bang",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@electric-sql/pglite": "0.3.14"
+  }
+}
