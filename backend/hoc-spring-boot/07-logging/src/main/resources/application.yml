@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: order-api
+
+server:
+  port: 8080
+
+# Quy tắc giảm giá của quán Mộc (xem backend/DOMAIN.md): đơn từ nguong đồng trở lên giảm phan-tram %.
+moc:
+  giam-gia:
+    nguong: 100000
+    phan-tram: 10
+
+logging:
+  pattern:
+    # Chèn mã request (đặt trong ThoiGianFilter) vào mỗi dòng log; để trống nếu không có
+    correlation: "[%X{requestId:-}] "
