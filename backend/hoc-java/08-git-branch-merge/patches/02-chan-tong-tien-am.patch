@@ -1,0 +1,28 @@
+diff --git a/src/main/java/vn/moc/donhang/TinhDon.java b/src/main/java/vn/moc/donhang/TinhDon.java
+index ebd02f7..b6ab2b5 100644
+--- a/src/main/java/vn/moc/donhang/TinhDon.java
++++ b/src/main/java/vn/moc/donhang/TinhDon.java
+@@ -19,6 +19,9 @@ public class TinhDon {
+ 
+     // Đơn từ 100.000 đồng trở lên được giảm 10%, tính trên tổng cả đơn.
+     public static long tinhGiamGia(long tongTien) {
++        if (tongTien < 0) {
++            throw new IllegalArgumentException("Tổng tiền không được âm: " + tongTien);
++        }
+         if (tongTien >= NGUONG_GIAM_GIA) {
+             return tongTien * PHAN_TRAM_GIAM / 100;
+         }
+diff --git a/src/test/java/vn/moc/donhang/TinhDonTest.java b/src/test/java/vn/moc/donhang/TinhDonTest.java
+index 6ea5a4b..3567216 100644
+--- a/src/test/java/vn/moc/donhang/TinhDonTest.java
++++ b/src/test/java/vn/moc/donhang/TinhDonTest.java
+@@ -54,4 +54,9 @@ class TinhDonTest {
+ 
+         assertEquals("Có 2 số lượng nhưng 1 đơn giá", loi.getMessage());
+     }
++
++    @Test
++    void tongTienAmThiBaoLoi() {
++        assertThrows(IllegalArgumentException.class, () -> TinhDon.tinhGiamGia(-5_000));
++    }
+ }

@@ -1,0 +1,28 @@
+diff --git a/src/main/java/vn/moc/donhang/TinhDon.java b/src/main/java/vn/moc/donhang/TinhDon.java
+index ebd02f7..313867c 100644
+--- a/src/main/java/vn/moc/donhang/TinhDon.java
++++ b/src/main/java/vn/moc/donhang/TinhDon.java
+@@ -24,4 +24,9 @@ public class TinhDon {
+         }
+         return 0;
+     }
++
++    // Khuyến mãi thử: mua 2 tặng 1, tức cứ 3 ly cùng loại thì 1 ly miễn phí.
++    public static int soLyMienPhi(int soLy) {
++        return soLy / 3;
++    }
+ }
+diff --git a/src/test/java/vn/moc/donhang/TinhDonTest.java b/src/test/java/vn/moc/donhang/TinhDonTest.java
+index 6ea5a4b..83aec24 100644
+--- a/src/test/java/vn/moc/donhang/TinhDonTest.java
++++ b/src/test/java/vn/moc/donhang/TinhDonTest.java
+@@ -54,4 +54,9 @@ class TinhDonTest {
+ 
+         assertEquals("Có 2 số lượng nhưng 1 đơn giá", loi.getMessage());
+     }
++
++    @Test
++    void mua6LyDuocTang2() {
++        assertEquals(2, TinhDon.soLyMienPhi(6));
++    }
+ }
