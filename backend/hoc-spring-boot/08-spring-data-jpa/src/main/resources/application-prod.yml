@@ -1,0 +1,8 @@
+# Profile "prod": bật khi chạy với --spring.profiles.active=prod
+server:
+  port: 80
+
+logging:
+  level:
+    root: WARN               # thư viện: chỉ cảnh báo và lỗi
+    vn.moc.orderapi: INFO    # code của mình: vẫn giữ dòng log của mỗi request

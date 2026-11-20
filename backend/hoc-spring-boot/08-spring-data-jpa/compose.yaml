@@ -1,0 +1,16 @@
+# PostgreSQL cho máy dev. Lần đầu khởi động (volume trống), Postgres chạy các file trong db/ theo thứ tự tên.
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: order_api
+      POSTGRES_USER: order_api
+      POSTGRES_PASSWORD: order_api_dev   # chỉ dùng trên máy dev
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d:ro
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
