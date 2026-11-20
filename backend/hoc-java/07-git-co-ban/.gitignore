@@ -1,0 +1,11 @@
+# Kết quả build của Maven: sinh lại được bằng mvn package
+target/
+
+# File cấu hình riêng của IDE trên từng máy
+.idea/
+*.iml
+.vscode/
+
+# File rác của hệ điều hành
+.DS_Store
+Thumbs.db
