@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: order-api
+  datasource:
+    url: jdbc:postgresql://localhost:5432/order_api
+    username: order_api
+    # Mật khẩu lấy từ biến môi trường DB_PASSWORD; giá trị sau dấu : chỉ dành cho máy dev (compose.yaml)
+    password: ${DB_PASSWORD:order_api_dev}
+  jpa:
+    hibernate:
+      ddl-auto: validate   # chỉ kiểm entity khớp với bảng có sẵn, không tự tạo hay sửa bảng
+    # Tắt "open in view": kết nối database không còn giữ mở tới lúc viết JSON. Mọi quan hệ LAZY phải được
+    # tải xong trong service (@Transactional) trước khi trả DTO cho controller.
+    open-in-view: false
+  data:
+    web:
+      pageable:
+        serialization-mode: via-dto   # JSON của Page có cấu trúc ổn định: content + page
+        max-page-size: 100            # client xin size=100000 cũng chỉ nhận tối đa 100 dòng
+
+server:
+  port: 8080
+
+# Quy tắc giảm giá của quán Mộc (xem backend/DOMAIN.md): đơn từ nguong đồng trở lên giảm phan-tram %.
+moc:
+  giam-gia:
+    nguong: 100000
+    phan-tram: 10
+
+logging:
+  pattern:
+    # Chèn mã request (đặt trong ThoiGianFilter) vào mỗi dòng log; để trống nếu không có
+    correlation: "[%X{requestId:-}] "
