@@ -1,0 +1,23 @@
+# Profile "dev": bật khi chạy với --spring.profiles.active=dev
+server:
+  port: 8081
+
+spring:
+  web:
+    error:
+      # Máy dev: trả kèm danh sách trường bị lỗi validation. (Spring Boot 3 dùng tên server.error.include-binding-errors)
+      include-binding-errors: always
+  flyway:
+    # Máy dev: ngoài các migration thật, nạp thêm dữ liệu mẫu (không bao giờ chạy trên prod)
+    locations: classpath:db/migration,classpath:db/du-lieu-mau
+
+moc:
+  giam-gia:
+    phan-tram: 15   # khuyến mãi thử trên máy dev
+
+logging:
+  level:
+    vn.moc.orderapi: DEBUG   # code của mình: ghi chi tiết
+    org.hibernate.SQL: DEBUG # in mọi câu SQL mà Hibernate gửi đi
+  file:
+    name: logs/order-api.log # ngoài console, ghi thêm ra file
